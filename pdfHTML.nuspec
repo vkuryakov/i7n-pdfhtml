@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
-    <id>itext7.pdfhtml</id>
-    <version>3.0.1-SNAPSHOT</version>
-    <title>iText 7 pdfHTML</title>
+    <id>itext7.pdfhtml-snappii</id>
+    <version>3.0.1-SNAPPII-SNAPSHOT</version>
+    <title>iText 7 pdfHTML (snappii)</title>
     <authors>iText Software</authors>
     <owners>iText Software</owners>
     <licenseUrl>https://www.gnu.org/licenses/agpl.html</licenseUrl>
@@ -19,11 +19,11 @@
 	<repository type="git" url="https://github.com/itext/i7n-pdfhtml.git"/>
     <dependencies>
       <group targetFramework="net40">
-        <dependency id="itext7" version="7.1.12-SNAPSHOT" />
+        <dependency id="itext7-snappii" version="7.1.12-SNAPPII-SNAPSHOT" />
         <dependency id="Common.Logging" version="3.4.1" />
       </group>
       <group targetFramework="netstandard1.6">
-        <dependency id="itext7" version="7.1.12-SNAPSHOT" />
+        <dependency id="itext7-snappii" version="7.1.12-SNAPPII-SNAPSHOT" />
         <dependency id="Common.Logging" version="3.4.1" />
       </group>
     </dependencies>
